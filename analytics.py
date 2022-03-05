@@ -80,5 +80,5 @@ class analytics:
                             except TypeError:
                                 pass
         #print(com)
-        com = (sorted(com, key=lambda x:x[0], reverse=True))
+        com = (sorted(com, key=lambda x:x[0], reverse=True)) #TODO: Ints = 0?
         print(com)
