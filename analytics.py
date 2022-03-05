@@ -36,7 +36,7 @@ class analytics:
         str = str.replace(".", " ")
         str = str.replace("!", " ")
         str = str.replace(",", " ")
-        str = str.replace("?", " ")
+        str = str.replace("?", " ")         #TODO: summarize replaces
         str = str.replace('"', " ")
         str = str.lower()
         str = str.replace("@", " ")
