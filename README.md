@@ -1,3 +1,4 @@
+
 <h1>Youtube-Scraper</h1>
 
 <h2>Short description </h2>
@@ -11,5 +12,5 @@ The youtube-scraper allows you to scrape most comments in the commentsection on 
 <li> subscriberCount (Int)
 <li> hiddenSubscriberCount (Bool)
 <li> videoCount (Int)
-<br>get_channel_video_data<br>
-<b>  
+<br><br>
+<b>get_channel_video_data</b>
