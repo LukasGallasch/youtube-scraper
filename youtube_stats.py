@@ -1,6 +1,7 @@
 import requests
 import json
 from tqdm import tqdm
+import time
 
 class YT_stats:
     def __init__(self, api_key, channel_id):
@@ -56,17 +57,17 @@ class YT_stats:
 
 
 
-    def dump(self):
+    def dump(self, path):
         if self.channel_statistics is None or self.video_data is None:
             print("data is none")
             return
 
         fused_data = {self.channel_id : {"channel_statistics" : self.channel_statistics, "video_data": self.video_data}}
-
+        
         channel_title = self.video_data.popitem()[1].get("channelTitle", self.channel_id)
         channel_title = channel_title.replace(" ", "_").lower()
         file_name = channel_title + ".json"
-        with open(file_name, mode="w", encoding="utf-8") as json_f:
+        with open(f"{path}/{file_name}", mode="w", encoding="utf-8") as json_f:
             json.dump(fused_data, json_f, indent=4)
             print("dumped.")
 
@@ -99,3 +100,5 @@ class YT_stats:
                 print(e)
 
         return channel_videos, nextPageToken
+
+
