@@ -5,12 +5,12 @@ from db_connect import DB
 import mysql.connector
 mydb = mysql.connector.connect(
       buffered=True,
-      host="localhost",
-      user="Desktop-HDK",
-      password="pgw6t9v6xTTQCPgH",
-      database="drachenlord_analyse",
-      auth_plugin="mysql_native_password",
-      charset="utf8mb4",
+      host="",
+      user="",
+      password="",
+      database="",
+      auth_plugin="",
+      charset="",
       use_unicode=True
     )
 
