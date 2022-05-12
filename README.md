@@ -2,7 +2,7 @@
 <h1>Youtube-Scraper</h1>
 
 <h2>Short description </h2>
-The youtube-scraper allows you to scrape most comments in the commentsection on Youtube. You can also get videodatas about whole youtubechannels.
+The youtube-scraper allows you to scrape most¹ comments in the commentsection on Youtube. You can also get videodatas about whole youtubechannels.
 
 <h2>Functions</h2>
 <h3>Youtube-Stats</h3>
@@ -14,3 +14,20 @@ The youtube-scraper allows you to scrape most comments in the commentsection on 
 <li> videoCount (Int)
 <br><br>
 <b>get_channel_video_data</b>
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+¹All you can see public
